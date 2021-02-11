@@ -191,7 +191,7 @@ def user_stats(df, city):
 
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*40)
-
+#this code used to display row data from the data file
 def display_raw_data(df):
     """Displays raw data on user request. """
     print(df.head())
