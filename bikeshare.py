@@ -72,7 +72,7 @@ def load_data(city, month, day):
     df['day_of_week'] = df['Start Time'].dt.weekday_name
     df['hour'] = df['Start Time'].dt.hour
 
-
+    #the end-user could be use both , a month itself or all month
     # filter by month if applicable
     if month != 'all':
         # use the index of the months list to get the corresponding int
